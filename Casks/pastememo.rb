@@ -1,9 +1,9 @@
 cask "pastememo" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.6.0"
-  sha256 arm:   "5677c474781abcf12e3ec7f23b5022741a3f632cdd6134e0d0d38e92770c9b92",
-         intel: "23678aff0123aa6fd411ab7cfa3c018ac5f1a373a6e6abfb1edaf6a0290db35e"
+  version "1.6.1"
+  sha256 arm:   "9bd1f10e6582923d4d58cd2c05f498db7f7685e08d404515c3752f026f042198",
+         intel: "0e8f92518f7b681983b7b62993c87475384587e941bd3c79e494f77cfc57d2c5"
 
   url "https://github.com/lifedever/PasteMemo-app/releases/download/v#{version}/PasteMemo-#{version}-#{arch}.dmg"
   name "PasteMemo"
