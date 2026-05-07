@@ -1,6 +1,6 @@
 cask "filelens" do
-  version "1.0.1"
-  sha256 "04a5fe125eade39a2dc126f87bedabff09ad0224b0be016374545b14b22d2881"
+  version "1.1.0"
+  sha256 "74c3d0e6d96a56b302d2b230a265771610ac132e8da3608d21bf8869d40dd302"
 
   url "https://github.com/lifedever/file-lens/releases/download/v#{version}/FileLens-#{version}-universal.dmg"
   name "FileLens"
