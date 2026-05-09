@@ -1,9 +1,9 @@
 cask "task-tick" do
   arch arm: "arm64", intel: "x86_64"
 
-  version "1.7.1"
-  sha256 arm:   "a8e55c31cdc8d34d204fa58f279ba53469ab1668e0e7ab460791d1a316058afe",
-         intel: "afdc3cebef5720dae8310c3fb9085fde4a2b2f63b05d95e3e5feeab159262e8d"
+  version "1.8.0"
+  sha256 arm:   "9429387d5a0e1770776e47da38590e11706809e3049641947235adba13d949aa",
+         intel: "3c786ccbf9a0ac39f8e2761b77f69dc5254e5bec7b51dfd33b9d71ecc26c988e"
 
   url "https://github.com/lifedever/TaskTick/releases/download/v#{version}/TaskTick-#{version}-#{arch}.dmg"
   name "TaskTick"
@@ -11,4 +11,5 @@ cask "task-tick" do
   homepage "https://github.com/lifedever/TaskTick"
 
   app "TaskTick.app"
+  binary "#{appdir}/TaskTick.app/Contents/MacOS/tasktick"
 end
