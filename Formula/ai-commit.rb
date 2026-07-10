@@ -8,6 +8,11 @@ class AiCommit < Formula
   depends_on "node"
 
   def install
+    # The GitHub tag tarball is source-only (dist/ is gitignored) and the
+    # build hook is prepublishOnly, which plain `npm install` never runs —
+    # so build explicitly before the global install.
+    system "npm", "install", "--include=dev", "--ignore-scripts"
+    system "npm", "run", "build"
     system "npm", "install", *std_npm_args
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
