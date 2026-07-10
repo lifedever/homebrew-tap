@@ -1,8 +1,8 @@
 class AiCommit < Formula
   desc "AI-powered Git commit message generator using LLM"
   homepage "https://github.com/lifedever/ai-commit"
-  url "https://github.com/lifedever/ai-commit/archive/refs/tags/v1.4.0.tar.gz"
-  sha256 "21481425bf1b7fd4f1417c7d451160d543712ac37dd3f50cdc4524806231c238"
+  url "https://github.com/lifedever/ai-commit/archive/refs/tags/v1.5.0.tar.gz"
+  sha256 "05fc327823ab75c9cabb6985db1e5b7c272a4dc38f72c369d75bd9a41b974968"
   license "MIT"
 
   depends_on "node"
