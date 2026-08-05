@@ -1,9 +1,9 @@
 cask "health-tick" do
   arch arm: "Apple-Silicon", intel: "Intel"
 
-  version "1.6.25"
-  sha256 arm:   "3152bdab1b39c124a39c16a2c3915887af349d443e3f14e8dd822ad8120294d8",
-         intel: "f591df350c5256a6fa0f368289bb460a440263940115cf3896ffe4d1e61801bd"
+  version "1.6.26"
+  sha256 arm:   "1f0498258c5a0186703ab43a2c855708d4863869180d9c012ba5e6595968be71",
+         intel: "70e35f7e88deaeed02e82a40069456edbaaed51626bd0d44fbcb80ff751e3d3b"
 
   url "https://github.com/lifedever/health-tick-release/releases/download/v#{version}/HealthTick-v#{version}-#{arch}.dmg"
   name "HealthTick"
